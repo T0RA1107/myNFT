@@ -25,8 +25,4 @@ contract myNFT is ERC721URIStorage, Ownable {
         safeTransferFrom(msg.sender, _to, _itemId);
     }
 
-    function tokenURI(uint256 tokenId) public view override returns (string memory) {
-        return super.tokenURI(tokenId);
-    }
-
 }
