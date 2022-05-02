@@ -1,4 +1,4 @@
-node_modules
-.vscode
-artifacts
-cache
+/node_modules
+/.vscode
+/artifacts
+/cache
